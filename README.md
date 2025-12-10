@@ -1,6 +1,6 @@
 # Welcome use 3D WP-seg Net
 
-Welcome to 3D Wheat Plot Detection, we will tell you how to use each module of the application, as well as the environment configuration of the software.
+Welcome to 3D WP-seg Net, we will tell you how to use each module of the application, as well as the environment configuration of the software.
 
 ## Installation
 To run.py files, you need to install the following libraries
