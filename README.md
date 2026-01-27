@@ -10,6 +10,11 @@ conda activate wheatPlot
 pip install -r requirements.txt
 pip install -e .
 ```
+## How to train a model
+If you wish to train a model, the following steps can be taken.
+```javascript
+cd /File path/3D WP-seg Net
+python tools/train.py {File Path}\WP-seg Net\configs\pointnet2\pointnet2_msg_2xb16-cosine-250e_scannet-seg.py
 
 ## Peroration
 We mainly added CSAM.py to mmdet3d\models\backbones, and modified pointnet2_sa_msg_ori.py.The above represents merely the first version of the software, and suggestions will be gathered and sorted out in the future for the improvement of the software.
